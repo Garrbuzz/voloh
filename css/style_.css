@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Azbuka06; 
+    src: url(../fonts/azbuka06.ttf); 
+ /*   font-family: BauhausC Light Regular;  */
+  /*  src: url(../fonts/BauhausC_Light_Regular.ttf);  */
+   }
+
+
+.logo{
+	position: relative;
+	height: inherit;
+
+ 
+}
+.row-logo{
+	
+	height: 90px;
+	/*background-color: rgba(110, 107, 104, 0.6);*/
+}
+.logo img{
+	position: absolute;
+	margin: auto;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+}
+#back{
+	
+	background-image:url('../images/back.png');
+	background-size: 100% 100% ;
+	
+ }
+
+.backTransparent{
+/*	background-color: rgba(220, 214, 209, 0.2);*/
+	background-size: 100% 100% ;
+	height: 500px;
+	color:#ddd;
+}
+
+.row1{
+
+	/*background-color: rgba(110, 107, 104, 0.6);*/
+	padding: 0px 50px 20px 50px;
+	height: 400px;
+}
+.row2{
+
+	height: 400px;
+	/*background-color: rgba(110, 107, 104, 0.6);*/
+}
+.navbar{
+	margin-top: 15px;
+	background-color:transparent;
+	border: 0;
+}
+	
+.navbar-default .navbar-nav > li > a:link{
+  color: #eee;
+  text-decoration: underline;
+  font-family: Azbuka06;
+  font-size: 1.5em;
+}
+ 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #9bb;
+    font-family: Azbuka06;
+    font-size: 1.6em;
+    background-color: rgba(110, 107, 104, 0.6);
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a:visited {
+    color: #aaa;
+    font-family: Azbuka06;
+    font-size: 1.2em;
+} 
+
+.ext-nav{
+	background-color: rgba(220, 214, 209, 0.6);
+	height: 150px;
+	border-radius: 10px;
+	margin-left: 30px; 
+	margin-top: 30px;
+	font-family: Azbuka06;
+
+}
+
+.cont-index{
+	font-size:1.3em;
+	color:#eee;
+	padding-top: 30px;
+	font-family: Azbuka06;
+	
+	
+	
+	
+}
+
+.tt {
+	
+	font-family: Azbuka06;;
+	
+	text-indent:2.5em;
+	
+	
+}
+body{
+  height: 100%;  
+  font-size: 16px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="../css/style.css"> 
+     
+	<title>Document</title>
+</head>
+<body>
+		
+			<div class="nav-cont">
+				<div class="nav-item" style="border-right: 1px solid #888">
+					<a href="../html/naturopatiya.html">
+						<p class= "nav-top">Принципи<br>
+					 	<span class="nav-bottom">системної&nbspнатуропатії</span></p>
+					</a>
+				</div>
+				<div class="nav-item"  style="border-right: 1px solid #888">
+					<a href="../html/opportunities.html">
+						<p class= "nav-top">Можливості<br>
+					 	<span class="nav-bottom">системної&nbspнатуропатії</span></p>
+					</a>
+				</div>
+				<div class="nav-item-logo-index">
+					<a class="img-center"><p ><img class= "img-logo" src="img/logo.png" alt=""></p></a>
+				</div>
+				<div class="nav-item"  style="border-left: 1px solid #888">
+					 <a href="../html/herbcollection.html">
+					 	<p class= "nav-top">Збори<br>
+					 	<span class="nav-bottom">лікарських&nbspтрав</span></p>
+					 </a> 
+				</div>
+				
+				<div class="nav-item" style="border-left: 1px solid #888">
+					<a href="../html/video.html">
+						<p class= "nav-top">Відео</p>
+					</a>
+				</div>
+			</div>
+	
+		<section class = "index">
+			<div class = "content">
+				<h1>Микита Волошин.</h1>
+				<h2>Практикуючий натуропат зільник.</h2>
+				<p class="p-cont-sub">Проводжу консультації з системної натуропатії – комплексної практики, що включає:<br></p>
+				<ul>
+					<li><p class="p-cont-sub">•	природну діагностику та розробку оздоровчих курсів</p></li>
+					<li><p class="p-cont-sub">•	використання природних методів лікування та профілактики (таких як корекція системи харчування та лікарські трави),</p></li>
+					<li><p class="p-cont-sub">•	очищення організму від шлаків та токсинів.</p></li>
+				</ul>
+
+
+
+				<p>
+					<span class = "wow">"Для цілісної оздоровчої системи невиліковних хвороб не існує! "</span>
+				</p>
+
+			</div>
+		</section>
+		<hr>
+		
+			<div class="footer-index">
+				
+				<div class="but">
+					
+					<button class="quest" onClick="quest()">Написати листа</button>
+				</div>
+				
+			</div>
+		<section class="subfooter">
+			<div class="phone"><span>Зателефонувати:&nbsp&nbsp</span>+380 73 155 56 25 </div>
+			<div class="social">
+					<a href = "https://www.facebook.com/groups/voloh/" target="_blank"><img src="../img/fb.png" alt=""></a>
+					<a href = "https://www.youtube.com/playlist?list=PLzzDokynpI1ekM05uSlShytYSPR9r2QMw" target="_blank"> <img src="../img/yt.png" alt=""></a>
+					<!-- <a href = "#"><img src="../img/gplus.png" alt=""></a>
+					<a href = "#"><img src="../img/insta.png" alt=""></a> -->
+			</div>
+			<div class="email"><span>Написати:&nbsp&nbsp</span>voloh@i.ua</div>
+		</section>
+
+
+<!-- 	Модальне вікно     -->
+			<div class = "modal" id="q" style="display:none">
+				
+			   	<div class="overlay">
+			   		
+			   	</div>
+			    <div class="visible">
+			    	<div class="x" onclick="canselQuestion()"></div>
+			        <div class="questions">    
+					    <form  id="form-q" name= "fq">
+									
+							
+							<div id="qqdiv" class="questions">
+							    <p>Ваше ім'я:
+							    	<p>
+							       		<input type="text" id="user-name"> 
+							       	</p>	
+							    </p>
+							</div>
+							<div id="qqdiv">
+							    <p>Ваша поштова скринька:
+							    	<p>
+							       		<input type="email" id="user-mail">
+							       	</p>	
+							    </p>
+							</div>
+							<div id="qqdiv" class="questions">
+							    <p>Ваше питання:
+							    	<p>
+							       		<textarea class="ta" id="message-text"></textarea> 
+							       	</p>	
+							    </p>
+							</div>
+						
+					    </form>	 
+			        </div>
+			        <div class="but-q">
+			        	<div>	
+							<button class="questions-button-ok" onclick="sendQuestion()">Відправити</button>
+						</div>
+					</div>
+			    </div>	
+		    </div>
+<!-- 	Модальне вікно   (кінець)  -->
+
+
+	
+
+</body>
+
+</html>

@@ -1,0 +1,392 @@
+body{
+	margin: 0;
+}
+/*=======================Container =====================*/
+.container{
+	display:grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+/*=============header =================================*/
+#header{
+	margin: 1.5em;
+}
+/*=============лого =================================*/
+/*=============Навігація =================================*/
+.img-center{
+	text-align: center;
+	margin:0;
+}
+
+
+.nav-cont{
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	background:url(../img/back-nav.png);
+	background-size: cover;
+}
+
+.nav-cont a:visited{
+  color:#aaa;	
+}
+.nav-cont a:hover{
+  color:#5d5;	
+}
+.nav-cont div:nth-child(1) { 
+	grid-column:2/3;
+	text-align: center;
+	
+}
+.nav-cont div:nth-child(2) { 
+	grid-column:3/4;
+	text-align: center;
+
+}
+.nav-cont div:nth-child(3) { 
+	grid-column:4/5; 
+	
+}
+.nav-cont div:nth-child(4) { 
+	grid-column:5/6;
+	text-align: center;
+	
+}
+.nav-cont div:nth-child(5) { 
+	grid-column:6/7;
+	text-align: center;	
+	
+}
+.nav-item{
+	margin:1.5em 0em 1.5em 0;
+	border-radius: 4px;
+	background-color: rgba(8, 8, 8, 0.4);
+	border: 1px solid #888;
+	
+}
+.nav-item-elect{
+	margin:1.5em 0em 1.5em 0;
+	border-radius: 4px;
+	border: 1px solid #888;
+	background-color: rgba(100, 100, 100, 0.7);
+	font-family: helvetica;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+.nav-item-logo{
+	margin: 1em 4em;
+}
+
+.nav-item-logo img:hover{
+	
+	transform: scale(1.05, 1.05);
+}
+
+.nav-item a{
+	font-family: helvetica;
+	font-size: 1em;
+	line-height: 1.6em;
+	color:#fff;
+	/* text-decoration: none; */
+}
+.nav-top, .nav-bottom{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: helvetica;
+  opacity: 1;
+  padding: 0 1em;
+}
+.nav-bottom{
+	font-size: 0.75em;
+	
+	
+}
+.elect-top{
+	color:#5d5;
+}
+/*=============Секція з головним фоном===============*/
+.index{
+	background: url("../img/back.jpg") no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0.5em;
+	height: 700px;
+	grid-column-start: 1;
+	grid-column-end:12;
+	grid-row-start:1;
+	grid-row-end:4;
+}
+.index h1, .index h2{
+	font-family: helvetica;
+	color:#fff;
+	margin:0;
+}
+.p-cont{
+	font-family: helvetica;
+	font-size: 1em;
+	color:#fff;
+	margin:0;
+
+}
+.p-cont-sub{
+
+	font-family: helvetica;
+	font-size: 1em;
+	color:#fff;
+	margin:1.5em 12em;
+}
+.wow{
+	font-family: helvetica;
+	color:yellow;
+}
+/*=============Контент ===============*/
+/* url("../img/back1.png") no-repeat center center; */
+.content{
+	background: rgba(15, 15, 35, 0.4);
+	margin: 0;
+	height: auto;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 0.7em;
+	padding-bottom: 1.5em;
+}
+
+/*=============footer =========================*/
+.footer, .footer-index{
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+	font-family: helvetica;
+	font-size: 1.3em;
+	padding: 1.5em 0.5em;
+	background: #eee;
+}
+.footer-index{
+	padding: 0 0.5em 1.2em 0.5em;
+}
+.footer-index p{
+	padding: 0;
+	margin: 0.7em;
+}
+.but{
+	grid-column:3/11;
+	text-align: center;
+}
+.but p{
+	font-family: helvetica;
+	font-size: 1.3em;
+}
+
+.phone, .email{
+	color: #fff;
+	padding-top: 2.5em;
+	font-family: helvetica;
+}
+.phone{
+	grid-column:2/5;
+	text-align: center;
+	
+}
+.social{
+	grid-column:5/10;
+	text-align: center;
+	padding-top: 2em;
+}
+.social a{
+	margin: 0.5em 0.5em;
+}
+.email{
+	grid-column:10/12 ;
+	text-align: center;
+}
+/*======================== subfooter =======================*/
+.subfooter{
+	display:grid;
+	background: black;
+	height: 6em;
+	grid-template-columns: repeat(13, 1fr);
+}
+.quest{
+	padding: 0.15em 0.8em;
+	font-family: helvetica;
+	
+	border-radius:6px;
+	background: #496;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+/*=============naturopatiya ===============*/
+.natur-title{
+	grid-column: 1/8;
+	text-align: center;
+	font-family: helvetica;
+	color:#555;
+
+}
+.nature-pre-cont-text{
+	grid-column: 2/10;
+	background: #eee;
+	border-radius: 5px;
+	
+}
+.nature-pre-cont-text p, h3 {
+	font-family: helvetica;
+	color:#444;
+	line-height: 1.75em;
+	padding: 0.75em 0;
+}
+.nature-pre-cont-text p{
+	font-size: 1.2em;
+	margin: 0 3em 0 4em;
+}
+.nature-pre-cont-text h3{
+	text-align: center;
+}
+.natur-cont, .nature-pre-cont{
+	display:grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-column-gap:5em;
+	margin-bottom: 4em;
+}
+.natur-cont div:nth-child(odd){
+	grid-column: 2/6;
+}
+.natur-cont div:nth-child(even){
+	grid-column: 6/10;
+}
+.text-natur{
+	font-family: helvetica;
+	line-height: 1.75em;
+	color: #555;
+	margin-top:3em;
+}
+.text-natur  h2{
+	margin:0;
+	padding:0;
+}
+.img-natur{
+	opacity: 0.75; background-size: cover;
+	margin: 3em 0 0;
+}
+/*=============herbalcollect ===============*/
+.herbal-title, .herbal-title-1{
+	margin:0;
+	color:#fff;
+	text-transform: uppercase;
+	font-style: helvetica;
+	padding:0.1em 0 0.1em 1.5em;
+	font-weight:600;
+	font-size: 1.2em;
+}
+.herbal-title-1{
+	color:#f00;
+}
+/*=============Секція ===============*/
+#go-top {
+  position: fixed; 
+  top: 2%; 
+  left: calc(50% - 2.34em);
+  text-align: center;
+  vertical-align: middle;
+  cursor:pointer; 
+  display:none;
+  width: 4.7em;
+  height: 4.7em;
+  background: #555;
+  color: #ccc;
+  line-height: 30px;
+  border-radius: 50%;
+  opacity: 0.5;
+  font-family: helvetica;
+}
+.up{
+	line-height: 4.7em;
+}
+#go-top:hover {
+  background: #111;
+  color: #fff;
+  opacity: 0.5;
+  font-family: helvetica;
+}
+/*=============video ===============*/
+.video{
+	height: 15em;
+	
+}
+/*=============Секція subfooter ===============*/
+/*===================Модальне вікно======================*/
+.modal{
+    position: relative;
+}
+.overlay{
+background: #000;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1000;
+	opacity: .5;
+}
+.visible{
+	position: fixed;
+	background: #111;
+	opacity: 0.9;
+	z-index: 2000;
+	left: 20%;
+	right: 20%;
+	top: 5em;
+	bottom: 10em;
+	border-radius: 8px;
+	box-shadow: 4px 6px 15px rgba(5,5,5,0.5);
+	min-height: 30em;
+}
+#qqdiv{
+	margin: 2em 1em;
+	color: #fff;
+	font-family: helvetica;
+}
+/*=============модальн вікно питання===============*/
+.questions{
+	
+}
+.questions input{
+	height: 10%;
+	width: 40%;
+}
+.ta{
+	width: 100%;
+	height: 10em;
+}
+.but-q{
+	position: absolute;
+	bottom: 1em;
+	width: 50%;
+	left: 25%;
+	display: flex;
+	justify-content: center;
+	
+}
+.questions-button-ok{
+	
+	padding: 1em 2em;
+	color: #222;
+	background: #fff;
+	font-family: helvetica;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+.x{
+	position:absolute;
+	top: -20px;
+	right: -20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background:url(../img/x.png);
+	text-align: center;
+	opacity: 0.9;
+}
+.x:hover{
+	cursor: pointer;
+} 
+/*=============Секція ===============*/
+/*=============Секція ===============*/
