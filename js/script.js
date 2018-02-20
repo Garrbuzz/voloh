@@ -27,8 +27,13 @@ function quest(){
   document.getElementById('q').style.display="block";
 }
 function sendQuestion(){
+  var patternEmail=/\w+@\w+\.\w+/;
   var userName = document.getElementById('user-name').value;
   var userMail = document.getElementById('user-mail').value;
+  if (!patternEmail.test(userMail)){
+    alert('boolshit');
+
+   };
   var messageText = document.getElementById('message-text').value;
   var body = "userName=" + encodeURIComponent(userName) + "&userMail=" + encodeURIComponent(userMail) + "&messageText=" + encodeURIComponent(messageText);
   var xhr = new XMLHttpRequest();
