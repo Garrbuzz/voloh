@@ -34,27 +34,22 @@ body{
 }
 .nav-cont div:nth-child(1) { 
 	grid-column:2/3;
-	text-align: center;
-	
+	text-align: center;	
 }
 .nav-cont div:nth-child(2) { 
 	grid-column:3/4;
 	text-align: center;
-
 }
 .nav-cont div:nth-child(3) { 
-	grid-column:4/5; 
-	
+	grid-column:4/5; 	
 }
 .nav-cont div:nth-child(4) { 
 	grid-column:5/6;
-	text-align: center;
-	
+	text-align: center;	
 }
 .nav-cont div:nth-child(5) { 
 	grid-column:6/7;
 	text-align: center;	
-	
 }
 .nav-item{
 	margin:1.5em 0em 1.5em 0;
@@ -93,7 +88,7 @@ body{
   text-align: center;
   font-family: helvetica;
   opacity: 1;
-  padding: 0 1em;
+ 
 }
 .nav-bottom{
 	font-size: 0.75em;
