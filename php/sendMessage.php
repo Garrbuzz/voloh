@@ -15,7 +15,7 @@ $headers  = "MIME-Version: 1.0";
 $headers .= "Content-type: text/html; charset=windows-1251" . "\r\n";
 $headers .= "From: $from";
 
-$send = mail("garrbuzz@gmail.com", $subject, $textMessege, $headers);
+$send = mail("voloh@i.ua", $subject, $textMessege, $headers);
  if ($send == 'true'){
 	$responce = 'Ok';
  } else {

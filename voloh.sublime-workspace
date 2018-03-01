@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"wh",
+				"white"
+			],
+			[
 				"text-",
 				"text-align"
 			],
@@ -347,7 +351,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5043,
+				"buffer_size": 4766,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -356,7 +360,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 6541,
+				"buffer_size": 6570,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -371,30 +375,21 @@
 			}
 		},
 		{
-			"file": "php/sendMessage.php",
-			"settings":
-			{
-				"buffer_size": 604,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "php/functions.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "html/naturopatiya.html",
 			"settings":
 			{
 				"buffer_size": 20386,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php/sendMessage.php",
+			"settings":
+			{
+				"buffer_size": 596,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -478,6 +473,7 @@
 	},
 	"file_history":
 	[
+		"/E/OpServ/OSPanel/domains/voloh/php/functions.php",
 		"/E/voloh/css/style.css",
 		"/E/OpServ/OSPanel/domains/voloh/css/style.css",
 		"/E/OpServ/OSPanel/domains/voloh/js/script.js",
@@ -527,6 +523,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"index",
+			"img-logo",
+			"jpg",
 			"index",
 			"nav-item-logo-index",
 			"alert",
@@ -592,7 +591,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -601,15 +600,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5043,
+						"buffer_size": 4766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2114,
-								2114
+								1935,
+								1935
 							]
 						],
 						"settings":
@@ -618,10 +617,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1932.0,
+						"translation.y": 1288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -630,15 +629,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6541,
+						"buffer_size": 6570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2605,
-								2605
+								1932,
+								2010
 							]
 						],
 						"settings":
@@ -647,10 +646,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3684.0,
+						"translation.y": 2424.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -676,56 +675,57 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 26.0,
-						"translation.y": 1563.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "php/sendMessage.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1563.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "php/functions.php",
+					"buffer": 3,
+					"file": "html/naturopatiya.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 20386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								793,
+								803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 584.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "php/sendMessage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
 							]
 						],
 						"settings":
@@ -741,35 +741,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "html/naturopatiya.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18449,
-								18449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "html/opportunities.html",
 					"semi_transient": false,
 					"settings":
@@ -794,11 +765,11 @@
 						"translation.y": 5852.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "html/herbcollection.html",
 					"semi_transient": false,
 					"settings":
@@ -823,11 +794,11 @@
 						"translation.y": 7840.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "html/video.html",
 					"semi_transient": false,
 					"settings":
@@ -852,7 +823,7 @@
 						"translation.y": 5828.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
