@@ -40,7 +40,7 @@
 				</div>
 			</div>
 	
-		<section class = "index">
+		<section class = "index" id = "indx">
 			<div class = "content">
 				<h1>Микита Волошин.</h1>
 				<h2>Практикуючий натуропат зільник.</h2>
@@ -59,48 +59,28 @@
 
 			</div>
 		</section>
-		<section id="question"  style="display:none">
-			<div class="questions">    
-				<!-- <form  id="form-q" name= "fq"> -->
-					<div id="qqdiv" class="questions">
-					    <p>Ваше ім'я:</p>
-					   	<input type="text" id="user-name"> 	
-					</div>
-					<div id="qqdiv">
-					    <p>Ваша поштова скринька:</p>
-					    	<input type="email" id="user-mail">
-					</div>
-					<div id="qqdiv" class="questions">
-					    <p>Ваше питання:</p>
-						<textarea class="ta" id="message-text"></textarea>
-					</div>
-				<!-- </form>	  -->
-			</div>
-			<div class="but-q">
-			  	<div>	
-			   		<button class="questions-button-ok" onclick="sendQuestion()">Відправити</button>
-				</div>
-			</div>	
-		</section>
 		<hr>
 		
 			<div class="footer-index">
 				
 				<div class="but">
+					<div class="social">
+						<a href = "https://www.facebook.com/groups/voloh/" target="_blank"><img src="../img/fb.png" alt=""></a>
+						<a href = "https://www.youtube.com/playlist?list=PLzzDokynpI1ekM05uSlShytYSPR9r2QMw" target="_blank"> <img src="../img/yt.png" alt=""></a>
+						<!-- <a href = "#"><img src="../img/gplus.png" alt=""></a>
+						<a href = "#"><img src="../img/insta.png" alt=""></a> -->
+					</div>
 					
-					<button class="quest" onClick="quest()">Написати листа</button>
 				</div>
 				
 			</div>
 		<section class="subfooter">
-			<div class="phone"><span>Зателефонувати:&nbsp&nbsp</span>+380 73 155 56 25 </div>
+			<div class="phone"><span>Зателефонувати:&nbsp&nbsp</span><a href = "tel:+380 73 155 56 25"> +380731555625 </a></div>
 			<div class="social">
-					<a href = "https://www.facebook.com/groups/voloh/" target="_blank"><img src="../img/fb.png" alt=""></a>
-					<a href = "https://www.youtube.com/playlist?list=PLzzDokynpI1ekM05uSlShytYSPR9r2QMw" target="_blank"> <img src="../img/yt.png" alt=""></a>
-					<!-- <a href = "#"><img src="../img/gplus.png" alt=""></a>
-					<a href = "#"><img src="../img/insta.png" alt=""></a> -->
+					<button class="quest" onClick="quest('index')">Надіслати повідомлення</button>
+					
 			</div>
-			<div class="email"><span>Написати:&nbsp&nbsp</span>voloh@i.ua</div>
+			<div class="email"><span>Написати:&nbsp&nbsp</span><a href ="mailto:voloh@i.ua">voloh@i.ua</div>
 		</section>
 
 

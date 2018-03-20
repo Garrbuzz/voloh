@@ -23,70 +23,49 @@ $(function() {
 $(function() {
  $("#go-top").scrollToTop();
 });
-// =================Модальне вікно питання=========================
-// function quest(){
-//   document.getElementById('q').style.display="block";
-// }
-// function sendQuestion(){
-//   var patternEmail=/\w+@\w+\.\w+/;
-//   var userName = document.getElementById('user-name').value;
-//   var userMail = document.getElementById('user-mail').value;
-//   if (!patternEmail.test(userMail)){
-//     alert('boolshit');
-
-//    };
-//   var messageText = document.getElementById('message-text').value;
-//   var body = "userName=" + encodeURIComponent(userName) + "&userMail=" + encodeURIComponent(userMail) + "&messageText=" + encodeURIComponent(messageText);
-//   var xhr = new XMLHttpRequest();
-//   alert (body);
-//   xhr.open("POST", "../php/sendmessage.php", true);
-//   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-//   xhr.send(body);
-//   xhr.onreadystatechange = function(){
-//     if (xhr.readyState===4) {
-//       var result = JSON.parse(xhr.responseText);
-//       alert(result);
-//     }
-
-//   };
-
-//   document.getElementById('q').style.display="none";
-
-// }
-// function canselQuestion(){
-//   document.getElementById('q').style.display="none";
-// }
-// =================Модальне вікно питання кінець=========================
-// =================Питання=========================
 
 
-function quest(){
-  document.getElementById('question').style.display="block";
+
+function quest(site){
+  let content = '<div class="questions"><div id="qqdiv"><p>Ваше ім\'я:</p><input type="text" id="user-name"></div><div id="qqdiv"><p>Ваша поштова скринька:</p><input type="email" id="user-mail"></div><div id="qqdiv"><p>Ваше питання:</p><textarea class="ta" id="message-text"></textarea></div><div class="but-q"><button class="questions-button-ok" onclick="sendQuestion(';
+  content = content + '\''+site + '\'';
+
+  content = content + ')">Відправити</button><button class="questions-button-cancel" onclick="questCansel()">Скасувати</button></div></div>';
+ if (site === 'index'){
+    document.getElementById('indx').innerHTML = content;
+ } else{
+
+    document.getElementById('nat-cont').innerHTML = content;
+ }
+
+
+  
 }
-function sendQuestion(){
+function questCansel(){
+  location.reload();
+}
+function sendQuestion(site){
   var patternEmail=/\w+@\w+\.\w+/;
   var userName = document.getElementById('user-name').value;
   var userMail = document.getElementById('user-mail').value;
   if (!patternEmail.test(userMail)){
-    alert('boolshit');
+    alert('Невірний формат адреси електронної пошти');
 
    };
   var messageText = document.getElementById('message-text').value;
   var body = "userName=" + encodeURIComponent(userName) + "&userMail=" + encodeURIComponent(userMail) + "&messageText=" + encodeURIComponent(messageText);
   var xhr = new XMLHttpRequest();
-  alert (body);
   xhr.open("POST", "../php/sendmessage.php", true);
   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
   xhr.send(body);
   xhr.onreadystatechange = function(){
     if (xhr.readyState===4) {
       var result = JSON.parse(xhr.responseText);
-      alert(result);
-    }
+  }
 
   };
-
-  document.getElementById('q').style.display="none";
+location.reload();
+  
 
 }
 function canselQuestion(){

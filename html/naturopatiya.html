@@ -7,9 +7,6 @@
     <title></title>
 </head>
 <body>
-	
-		
-		
 			<div class="nav-cont">
 				<div class="nav-item-elect" >
 					<a class="elect">
@@ -41,8 +38,9 @@
 				
 			</div>	
 		<div class="natur-title"><h1>Принципи системної&nbspнатуропатії</h1></div>
+	<div id = "nat-cont">	
 		<div class="nature-pre-cont">
-			<div class="nature-pre-cont-text">
+			<div class="nature-pre-cont-text" >
 				<p>Системна натуропатія кардинально відрізняється від інших напрямів медицини. І відрізняється вона не тільки методами, а й філософією – духом! Необхідно глибоко перейнятися цим духом, щоб досягти успіху в лікуванні та профілактиці. Для цього я запланував цикл постів про ключові принципи, що закладено в основу системної натуропатії. Вони базуються на потужному усвідомленні Річарда Шульца та Арнольда Ерета, а також на результатах моєї власної практики.
 				</p>
 			</div>
@@ -154,69 +152,27 @@
 				<h3>Сама Природа вказує нам шлях! І тисячі інших, хто йшов до нас! </h3>
 			</div>
 		</div>
+	</div>
 		<hr>
 		<div class="footer">
 				
 				<div class="but">
-					<button class="quest" onclick="quest()">Написати листа</button>
+					<div class="social">
+						<a href = "https://www.facebook.com/groups/voloh/" target="_blank"><img src="../img/fb.png" alt=""></a>
+						<a href = "https://www.youtube.com/playlist?list=PLzzDokynpI1ekM05uSlShytYSPR9r2QMw" target="_blank"> <img src="../img/yt.png" alt=""></a>
+						<!-- <a href = "#"><img src="../img/gplus.png" alt=""></a>
+						<a href = "#"><img src="../img/insta.png" alt=""></a> -->
+					</div>
+					
 				</div>
 				
 		</div>
 		<section class="subfooter">
-			<div class="phone"><span>Зателефонувати:&nbsp&nbsp</span>+380 73 155 56 25 </div>
+			<div class="phone"><span>Зателефонувати:&nbsp&nbsp</span><a href = "tel:+380 73 155 56 25"> +380731555625 </a></div>
 			<div class="social">
-					<a href = "https://www.facebook.com/groups/voloh/" target="_blank"><img src="../img/fb.png" alt=""></a>
-					<a href = "https://www.youtube.com/playlist?list=PLzzDokynpI1ekM05uSlShytYSPR9r2QMw" target="_blank"><img src="../img/yt.png" alt=""></a>
-					<!-- <a href = "#"><img src="../img/gplus.png" alt=""></a>
-					<a href = "#"><img src="../img/insta.png" alt=""></a> -->
+					<button class="quest" onClick="quest('index')">Надіслати повідомлення</button>
+					
 			</div>
-			<div class="email"><span>Написати:&nbsp&nbsp</span>voloh@i.ua</div>
+			<div class="email"><span>Написати:&nbsp&nbsp</span><a href ="mailto:voloh@i.ua">voloh@i.ua</div>
 		</section>
-		
-		
-<!-- 	Модальне вікно     -->
-			<div class = "modal" id="q" style="display:none">
-				
-			   	<div class="overlay">
-			   		
-			   	</div>
-			    <div class="visible">
-			    	<div class="x" onclick="canselQuestion()"></div>
-			        <div class="questions">    
-					    <form  id="form-q" name= "fq">
-									
-							
-							<div id="qqdiv" class="questions">
-							    <p>Ваше ім'я:
-							    	<p>
-							       		<input type="text" name="name"> 
-							       	</p>	
-							    </p>
-							</div>
-							<div id="qqdiv">
-							    <p>Ваша поштова скринька:
-							    	<p>
-							       		<input type="email"name="qe">
-							       	</p>	
-							    </p>
-							</div>
-							<div id="qqdiv" class="questions">
-							    <p>Ваше питання:
-							    	<p>
-							       		<textarea class="ta"></textarea> 
-							       	</p>	
-							    </p>
-							</div>
-						
-					    </form>	 
-			        </div>
-			        <div class="but-q">
-			        	<div>	
-							<button class="questions-button-ok" onclick="sendQuestion()">Відправити</button>
-						</div>
-					</div>
-			    </div>	
-		    </div>
-<!-- 	Модальне вікно   (кінець)  -->
-	
 </body>

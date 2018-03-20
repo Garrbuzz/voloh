@@ -186,10 +186,10 @@ body{
 .social{
 	grid-column:5/10;
 	text-align: center;
-	padding-top: 2em;
+	padding-top: 0.5em;
 }
 .social a{
-	margin: 0.5em 0.5em;
+	margin: 0em 0.5em;
 }
 .email{
 	grid-column:10/12 ;
@@ -203,13 +203,14 @@ body{
 	grid-template-columns: repeat(13, 1fr);
 }
 .quest{
-	padding: 0.15em 0.8em;
+	margin: 1.1em 0;
+	padding: 0.5em 0.8em;
 	font-family: helvetica;
-	
-	border-radius:6px;
-	background: #496;
-	color: #fff;
-	font-size: 1.5em;
+	border-radius:4px;
+	border: 1px solid #333;
+	background: #151515;
+	color: #bbb;
+	font-size: 1.1em;
 }
 
 /*=============naturopatiya ===============*/
@@ -340,12 +341,19 @@ background: #000;
 }
 #qqdiv{
 	margin: 2em 1em;
+	padding: 0 20em;
 	color: #fff;
 	font-family: helvetica;
 }
+#qqdiv p{
+	color: yellow;
+}
 /*=============модальн вікно питання===============*/
 .questions{
-	
+	padding-top: 3em;
+	margin: 0 ;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
 }
 .questions input{
 	height: 10%;
@@ -356,23 +364,45 @@ background: #000;
 	height: 10em;
 }
 .but-q{
-	position: absolute;
 	bottom: 1em;
-	width: 50%;
-	left: 25%;
 	display: flex;
 	justify-content: center;
-	
 }
 .questions-button-ok{
 	
-	padding: 1em 2em;
-	color: #222;
-	background: #fff;
+	padding: 0.5em 2em;
+	margin-bottom: 2em;
+	margin-right: 3em;
+	color: #fff;
+	border: 1px solid #252;
+	background: #6b6;
 	font-family: helvetica;
-	border-radius: 5px;
-	opacity: 0.7;
+	border-radius: 4px;
+	opacity: 0.8;
+
 }
+.questions-button-cancel{
+	padding: 0.5em 2em;
+	margin-bottom: 2em;
+	margin-left: 3em;
+	color: #bbb;
+	border: 1px solid #252;
+	background: #131;
+	font-family: helvetica;
+	border-radius: 4px;
+	opacity: 0.7;
+
+}
+.questions-button-ok:hover, .questions-button-cancel:hover{
+	cursor: pointer;
+	background: #161;
+	color: #fff;
+
+}
+
+
+
+
 .x{
 	position:absolute;
 	top: -20px;
