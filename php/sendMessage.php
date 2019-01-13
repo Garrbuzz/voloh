@@ -8,7 +8,7 @@ $userName = $_POST['userName'];
 $userMail = $_POST['userMail'];
 $textMessege = $_POST['messageText'];
 
-$from = "site@voloh.org.ua\r\n";
+$from = "imla@imla.com.ua\r\n";
 $subject = 'Повідомлення з сайту від   ';
 $subject .= $userName;
 
@@ -16,7 +16,7 @@ $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=\"utf-8\"\n";
 $headers .= "From: $from";
 
-$send = mail("voloh@i.ua", $subject, $textMessege, $headers);
+$send = mail("garrbuzz@gmail.com", $subject, $textMessege, $headers);
  if ($send == 'true'){
 	$responce = 'Ok';
  } else {
